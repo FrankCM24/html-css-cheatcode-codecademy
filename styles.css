@@ -1,0 +1,181 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #778899;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+nav {
+  margin: 0;
+  padding: 20px 60px;
+  
+}
+
+nav li {
+  color: #F0F8FF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: auto;
+}
+
+main h1 {
+  color: #F8F8FF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+table {
+  width: 650px;
+  margin: 0 auto;
+  background-color:#FAF0E6;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  border: 2px solid #FFDEAD;
+}
+
+thead {
+  font-size: 25px;
+  background-color: #FFFAF0;
+}
+
+td {
+  text-align: left;
+  border-top: 1px solid #696969;
+}
+
+footer {
+  background-color: #778899;
+  color: #fff;
+  padding: 30px 0;
+  position: fixed;
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.code {
+  font-family: monospace;
+  background-color: #F0FFF0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.jumbotron {
+  height: 400px;
+  background-image: url("https://mcdn.wallpapersafari.com/medium/98/5/3F8r1P.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;  
+  margin-bottom: 20px;      
+}
+
+.content {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.content .html {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: block;
+  width: auto;
+}
+
+.content h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.content .col {
+  font-weight: 400;
+  font-size: 14px;
+   font-family: 'Raleway', sans-serif;
+}
+
+.content h1 {
+  font-weight: 600;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #2F4F4F;
+  font-family: 'Raleway', sans-serif;
+}
+
+.content p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.content a {
+  background-color: white;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: auto;
+  border: 2px solid #333333; 
+}
+
+@media (max-width: 500px) {
+  main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+}
