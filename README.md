@@ -1,2 +1,2 @@
 # html-css-cheatcode-codecademy
-Codecademy proyects
+A simple Cheatsheet for CSS and HTML
